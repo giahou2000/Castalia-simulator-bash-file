@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-echo "Hello World"
+echo "The scrip is running..."
 
 CastaliaResults -i mobile12Zigbee.txt -s "Application level latency" -n >> mobile12Zigbee_analysis.txt
 CastaliaResults -i mobile12Zigbee.txt -s "Energy" -n >> mobile12Zigbee_analysis.txt
