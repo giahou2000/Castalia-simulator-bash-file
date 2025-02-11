@@ -1,6 +1,6 @@
 #! /usr/bin/bash
 
-echo "Hello World"
+echo "The script is running..."
 
 CastaliaResults -i mobile6Baseline.txt -s "Application level latency" -n >> mobile6Baseline_analysis.txt
 CastaliaResults -i mobile6Baseline.txt -s "Energy" -n >> mobile6Baseline_analysis.txt
@@ -17,3 +17,5 @@ CastaliaResults -i mobile6Baseline.txt -s "TXed pkts" -n >> mobile6Baseline_anal
 CastaliaResults -i mobile6Baseline.txt -s "Estimated network lifetime" -n >> mobile6Baseline_analysis.txt
 CastaliaResults -i mobile6Baseline.txt -s "Execution ratio" -n >> mobile6Baseline_analysis.txt
 CastaliaResults -i mobile6Baseline.txt -s "Execution time" -n >> mobile6Baseline_analysis.txt
+
+echo "The script ended hopefully successfully!!!!"
