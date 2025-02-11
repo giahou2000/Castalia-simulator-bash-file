@@ -17,3 +17,5 @@ CastaliaResults -i mobile12Zigbee.txt -s "TXed pkts" -n >> mobile12Zigbee_analys
 CastaliaResults -i mobile12Zigbee.txt -s "Estimated network lifetime" -n >> mobile12Zigbee_analysis.txt
 CastaliaResults -i mobile12Zigbee.txt -s "Execution ratio" -n >> mobile12Zigbee_analysis.txt
 CastaliaResults -i mobile12Zigbee.txt -s "Execution time" -n >> mobile12Zigbee_analysis.txt
+
+echo "The script ended hopefully successfully!!!!"
